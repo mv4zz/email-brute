@@ -4,6 +4,13 @@ this is a python script which attempts multiple login attempts whilst trying to 
 (script is written by using python-3 )
 
 
+
+
+
+
+
+
+
 # installation
 
 $ git clone https://github.com/mv4zz/email-brute
@@ -46,6 +53,7 @@ i recommend using windows or kali-linux, make sure you have your vpn on!!
 # FULL CREDS TO d4az
 
    
+
 
 
 
