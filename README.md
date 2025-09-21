@@ -2,16 +2,16 @@
 
 this is a python script which attempts multiple login attempts whilst trying to grab the password.
 (script is written by using python-3 )
-					
-
-
+					‎ 
+‎ 
+‎ 
 
 # installation
 
 $ git clone https://github.com/mv4zz/email-brute
 
 
-# how to run the Script ? 
+# how to run the script ? 
 
     $ cd hack-gmail
     $ python3 hack-gmail.py
@@ -23,7 +23,7 @@ to check your python version, go terminal and search.
     $ python3 --version
     
 
-# in case you don't Have python pre-installed
+# in case you don't have python pre-installed
 
 if you have Ubuntu 16.10 or newer you can easily install python3 using the following commands. 
 
@@ -48,6 +48,7 @@ i recommend using windows or kali-linux, make sure you have your vpn on!!
 # FULL CREDS TO d4az
 
    
+
 
 
 
