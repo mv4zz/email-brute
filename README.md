@@ -2,12 +2,7 @@
 
 this is a python script which attempts multiple login attempts whilst trying to grab the password.
 (script is written by using python-3 )
-
-
-
-
-
-
+					
 
 
 
@@ -53,6 +48,7 @@ i recommend using windows or kali-linux, make sure you have your vpn on!!
 # FULL CREDS TO d4az
 
    
+
 
 
 
