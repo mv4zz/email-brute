@@ -1,6 +1,8 @@
 import smtplib
 import sys
+import os
 from os import system
+
 def artwork():
     print("\n")
     print("##########################################################")
@@ -21,10 +23,8 @@ def artwork():
     print("\n")
     
 def cls():
-if os == "nt":    # windows is classified as "nt"
+ if os == "nt":    # windows is classified as "nt"
     os.system("cls")
-else:
-    os.system("clear")
 
 cls()
 artwork()
@@ -66,7 +66,5 @@ for password in passswfile:
 
     except smtplib.SMTPAuthenticationError:
         print("[!] Pasword Failure ❌. %s " % password)
-
-
 
 
