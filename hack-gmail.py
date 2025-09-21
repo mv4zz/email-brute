@@ -9,8 +9,8 @@ def artwork():
     print("#                     |  @___oo                          #")
     print("#           /\  /\   / (__,,,,|                          #")
     print("#          ) /^\) ^\/ _)                Gmail-hack!      #")
-    print("#          )   /^\/   _)                CoDeD By:        #")
-    print("#          )   _ /  / _)                        d4az     #")
+    print("#          )   /^\/   _)                                 #")
+    print("#          )   _ /  / _)                                 #")
     print("#      /\  )/\/ ||  | )_)                                #")
     print("#     <  >      |(,,) )__)                               #")
     print("#      ||      /    \)___)\                              #")
@@ -60,4 +60,5 @@ for password in passswfile:
 
     except smtplib.SMTPAuthenticationError:
         print("[!] Pasword Is Wrong. %s " % password)
+
 
