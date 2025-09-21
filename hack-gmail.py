@@ -65,7 +65,8 @@ for password in passswfile:
         break
 
     except smtplib.SMTPAuthenticationError:
-        print("[!] Pasword Is Wrong ❌. %s " % password)
+        print("[!] Pasword Failure ❌. %s " % password)
+
 
 
 
