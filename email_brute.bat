@@ -1,4 +1,4 @@
 @echo off
 title scripty devil
-python hack-gmail.py
+python code\hack-gmail.py
 pause
